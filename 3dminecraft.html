@@ -168,7 +168,7 @@
 		var keys = [];
 		var canJump = true;
 		var controlOptions = {
-			forward : ".buton1",
+			forward : "buton1",
 			backward : "buton2",
 			right : "buton3",
 			left : "buton4",
@@ -204,7 +204,7 @@
 		var start = 0;
 		var sprint = false;
 		document.addEventListener("keydown", function(e){
-			if(e.key == "w") {
+			if(e.key == "buton1") {
 		        var elapsed = new Date().getTime();
 		        if(elapsed - start <= 300){
 		        	sprint = true;
